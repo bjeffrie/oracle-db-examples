@@ -1,4 +1,4 @@
-/* Copyright (c) 2015, 2018, Oracle and/or its affiliates. All rights reserved. */
+/* Copyright (c) 2015, 2019, Oracle and/or its affiliates. All rights reserved. */
 
 /******************************************************************************
  *
@@ -21,9 +21,11 @@
  * DESCRIPTION
  *   Executes sample insert and query statements using a JSON column with BLOB storage.
  *   Requires Oracle Database 12.1.0.2, which has extensive JSON datatype support.
- *   See https://docs.oracle.com/database/122/ADJSN/toc.htm
+ *   See https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=ADJSN
  *
  *   Use demo.sql to create the required table.
+ *
+ *   This example requires node-oracledb 1.13 or later.
  *
  *****************************************************************************/
 
